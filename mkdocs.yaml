@@ -1,0 +1,44 @@
+# Project information
+site_name: knuu
+site_url: https://knuu.sh
+site_author: CELESTIA.org
+site_description: >-
+  Integration Test Framework
+
+# Repository
+repo_name: celestiaorg/knuu
+repo_url: https://github.com/celestiaorg/knuu
+
+# Copyright
+copyright: Copyright &copy; celestia.org
+
+# Extensions
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+# Plugins
+plugins:
+  - tags
+
+# Configuration
+theme:
+  name: material
+
+# Additional configuration
+extra:
+  status:
+    new: Recently added
+    deprecated: Deprecated
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/celestiaorg
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/CelestiaOrg
+
+# Page tree
+nav:
+  - Home: index.md
